@@ -14,16 +14,16 @@ gulp.task('serve', function () {
     browserSync.init({
         server: "./app"
     });
-
-    gulp.watch("app/scss/*.scss", gulp.series('buildCSS'));
+    // attention in the first String()
+    gulp.watch("app/scss/**/*.scss", gulp.series('buildCSS'));
     gulp.watch("app/scripts/*.js", gulp.series('scripts'));
     gulp.watch("app/*.html").on('change', browserSync.reload);
 
 });
 
 gulp.task('buildCSS', function () {
-
-    return gulp.src(['app/scss/*.scss']).
+    // attention in the first String()
+    return gulp.src(['app/scss/**/*.scss']).
         pipe(sass({outputStyle: 'compressed'})).
         //pipe(rename({suffix:'.min'})).
         pipe(gulp.dest("app/dest/styles")).
