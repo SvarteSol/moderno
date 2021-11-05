@@ -1,0 +1,29 @@
+{
+  "name": "code-canvas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server 'app' --files 'app'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Vislov",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.27.5",
+    "bulma": "^0.9.3",
+    "sass": "^1.38.2"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-uglify": "^3.0.2",
+    "magnific-popup": "^1.1.0",
+    "normalize.css": "^8.0.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "description": ""
+}
