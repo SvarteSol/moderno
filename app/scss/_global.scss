@@ -30,3 +30,28 @@ body{
      padding: 0 15px;
      margin: 0 auto;
  }
+ .container-fluid{
+     max-width: 100%;
+     padding: 0 30px;
+     margin: 0 auto;
+ }
+
+ @media (max-width: 720px){
+    .container-fluid{  
+        padding: 0 15px;   
+    } 
+ }
+
+ .title{
+     text-align: center;
+     margin-bottom: 30px;
+     color:$bg;
+     font-weight: 700;
+     line-height: 60px;
+     font-size: 36px;
+ }
+ 
+ .rate-star{
+     display: inline-block;
+     margin-right: 13px;
+ }
