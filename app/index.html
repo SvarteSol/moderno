@@ -5,16 +5,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Moderno</title>
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="fonts/fontawesome/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/libs.min.css" >
+    <link rel="stylesheet" href="css/libs.min.css">
     <!-- <link rel="stylesheet" href="dest/styles/main.min.css"> -->
-    <link rel="stylesheet" href="dest/styles/main.css" >
+    <link rel="stylesheet" href="dest/styles/main.css">
 </head>
 
 <body>
     <header class="header">
-        <div class="header__top">
-            <div class="container">
+        <div class="container">
+            <div class="header__top">
                 <div class="header__top-inner">
                     <div class="header__logo">
                         <a href="#">
@@ -29,13 +34,15 @@
                         <a class="header__phone" href="tel:61383766284">+61 3 8376 6284</a>
                     </div>
                     <div class="header__box">
-                        <a href="#" class="basket"></a>
-                        <a class="header__btn header__btn-login" href="#">Login</a>
-                        <a class="header__btn header__btn-register" href="#">Register</a>
+                        <a class="basket" href="#"></a>
+                        <a class="header__btn header__btn-login " href="#">Login</a>
+                        <a class="header__btn header__btn header__btn-registr" href="#">Register</a>
                     </div>
-                </div>  
+                </div>
             </div>
         </div>
+
+
 
         <div class="header__menu">
             <div class="container">
@@ -68,7 +75,7 @@
                         </li>
                         <li>
                             <a href="#">
-                                Plugins 
+                                Plugins
                             </a>
                         </li>
                         <li>
@@ -78,12 +85,12 @@
                         </li>
                         <li>
                             <a href="#">
-                                Contact
+                                Pages
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                Pages
+                                Contact
                             </a>
                         </li>
                         <li>
@@ -95,30 +102,30 @@
                 </nav>
             </div>
         </div>
-        
+
     </header>
-    <setion class="search" > 
-        <div class="search-bg" style="background-image: url('images/search-bg.jpg');">
-            <div class="container">
-                <div  class="search__inner" >
-                    <div class="search__inner-title" >
-                        Welcome To Moderno Market Place!
-                    </div>
-                    <div class="search__inner-text">
-                        Premium WordPress Themes, Web Templates and Many More ...
-                    </div>
-                    <div class="search__inner-form">
-                        <form action="">
-                            <input type="text" placeholder="Search Your Keywords . . ." required>
-                            <button type="submit">
-                                <img src="images/icons/search.png" alt="">
-                            </button>
-                        </form>
-                    </div>
+
+    <section class="search" style="background-image: url(images/search-bg.jpg);">
+        <div class="container">
+            <div class="search__inner">
+                <div class="search__inner-title">
+                    Welcome To Foxtar Market Place!
+                </div>
+                <div class="search__inner-text">
+                    Premium WordPress Themes, Web Templates and Many More ...
+                </div>
+                <div class="search__inner-form">
+                    <form>
+                        <input type="text" placeholder="Search Your Keywords . . ." required>
+                        <button type="submit">
+                            <img src="images/icons/search.png" alt="">
+                        </button>
+                    </form>
                 </div>
             </div>
         </div>
-    </setion>
+    </section>
+
     <section class="products">
         <div class="container-fluid">
             <div class="products__title title">
@@ -130,482 +137,791 @@
                     <button type="button" data-filter=".category-wordpress">WordPress</button>
                     <button type="button" data-filter=".category-joomla">Joomla</button>
                     <button type="button" data-filter=".category-plugins">Plugins</button>
-                    <button type="button" data-filter=".category-component">Component</button>
+                    <button type="button" data-filter=".category-components">Components</button>
                     <button type="button" data-filter=".category-psd">PSD</button>
                 </div>
-            
                 <div class="products__inner-box">
-                    <div class="product__item mix category-wordpress category-popular" data-order="1">
-                        <a class="product__item-img" style="background-image:url('images/content-item/1.jpg') ;" href="#"></a>
-                        <div class="product__item-content">
-                            <div class="product__item-name">
-                                <a class="product__item-title" href="#">
-                                    Responsive Mobile APP
+                    <div class="products__item mix category-wordpress category-popular" data-order="1">
+                        <a href="#" class="products__item-img"
+                            style="background-image: url(images/content-item/1.jpg);"></a>
+                        <div class="products__item-content">
+                            <div class="products__item-name">
+                                <a href="#" class="products__item-title">
+                                    Responsive Mobile App
                                 </a>
-                                <a class="product__item-category" href="#">
-                                    Site Template
+                                <a href="#" class="products__item-category">
+                                    Site Templates
                                 </a>
                             </div>
-                            <div class="product__item-price">
-                                $19
+                            <div class="products__item-price">
+                                19$
                             </div>
                         </div>
-                        <div class="product__item-info">
-                            <a class="product__item-author" href="#">
-                                <div class="avatar" style="background-image: url('images/content-item/user.jpg') ;"></div>
-                                <span>Radiusttheme</span> 
+                        <div class="products__item-info">
+                            <a href="#" class="products__item-author">
+                                <div class="avatar" style="background-image: url(images/content-item/user.jpg);"></div>
+                                <span>Radiustheme</span>
                             </a>
-                            <div class="product__item-star">
-                                <div class="rate-star"></div>(<span>05</span>) 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product__item mix category-psd category-new" data-order="2">
-                        <a class="product__item-img" style="background-image:url('images/content-item/2.jpg') ;" href="#"></a>
-                        <div class="product__item-content">
-                            <div class="product__item-name">
-                                <a class="product__item-title" href="#">
-                                    Responsive Mobile APP
-                                </a>
-                                <a class="product__item-category" href="#">
-                                    Site Template
-                                </a>
-                            </div>
-                            <div class="product__item-price">
-                                $19
-                            </div>
-                        </div>
-                        <div class="product__item-info">
-                            <a class="product__item-author" href="#">
-                                <div class="avatar" style="background-image: url('images/content-item/user.jpg') ;"></div>
-                                <span>Radiusttheme</span> 
-                            </a>
-                            <div class="product__item-star">
+                            <div class="products__item-star">
                                 <div class="rate-star"></div>(<span>05</span>)
                             </div>
                         </div>
                     </div>
-                    <div class="product__item mix category-joomla category-popular" data-order="3">
-                        <a class="product__item-img" style="background-image:url('images/content-item/3.jpg') ;" href="#"></a>
-                        <div class="product__item-content">
-                            <div class="product__item-name">
-                                <a class="product__item-title" href="#">
-                                    Responsive Mobile APP
+                    <div class="products__item mix category-psd category-popular" data-order="2">
+                        <a href="#" class="products__item-img"
+                            style="background-image: url(images/content-item/2.jpg);"></a>
+                        <div class="products__item-content">
+                            <div class="products__item-name">
+                                <a href="#" class="products__item-title">
+                                    Responsive Mobile App
                                 </a>
-                                <a class="product__item-category" href="#">
-                                    Site Template
+                                <a href="#" class="products__item-category">
+                                    Site Templates
                                 </a>
                             </div>
-                            <div class="product__item-price">
-                                $19
+                            <div class="products__item-price">
+                                19$
                             </div>
                         </div>
-                        <div class="product__item-info">
-                            <a class="product__item-author" href="#">
-                                <div class="avatar" style="background-image: url('images/content-item/user.jpg') ;"></div>
-                                <span>Radiusttheme</span> 
+                        <div class="products__item-info">
+                            <a href="#" class="products__item-author">
+                                <div class="avatar" style="background-image: url(images/content-item/user.jpg);"></div>
+                                <span>Radiustheme</span>
                             </a>
-                            <div class="product__item-star">
+                            <div class="products__item-star">
                                 <div class="rate-star"></div>(<span>05</span>)
                             </div>
                         </div>
                     </div>
-                    <div class="product__item mix category-wordpress category-new" data-order="4">
-                        <a class="product__item-img" style="background-image:url('images/content-item/4.jpg') ;" href="#"></a>
-                        <div class="product__item-content">
-                            <div class="product__item-name">
-                                <a class="product__item-title" href="#">
-                                    Responsive Mobile APP
+                    <div class="products__item mix category-joomla category-popular" data-order="3">
+                        <a href="#" class="products__item-img"
+                            style="background-image: url(images/content-item/3.jpg);"></a>
+                        <div class="products__item-content">
+                            <div class="products__item-name">
+                                <a href="#" class="products__item-title">
+                                    Responsive Mobile App
                                 </a>
-                                <a class="product__item-category" href="#">
-                                    Site Template
+                                <a href="#" class="products__item-category">
+                                    Site Templates
                                 </a>
                             </div>
-                            <div class="product__item-price">
-                                $19
+                            <div class="products__item-price">
+                                19$
                             </div>
                         </div>
-                        <div class="product__item-info">
-                            <a class="product__item-author" href="#">
-                                <div class="avatar" style="background-image: url('images/content-item/user.jpg') ;"></div>
-                                <span>Radiusttheme</span> 
+                        <div class="products__item-info">
+                            <a href="#" class="products__item-author">
+                                <div class="avatar" style="background-image: url(images/content-item/user.jpg);"></div>
+                                <span>Radiustheme</span>
                             </a>
-                            <div class="product__item-star">
+                            <div class="products__item-star">
                                 <div class="rate-star"></div>(<span>05</span>)
                             </div>
                         </div>
                     </div>
-                    <div class="product__item mix category-psd category-popular" data-order="5">
-                        <a class="product__item-img" style="background-image:url('images/content-item/5.jpg') ;" href="#"></a>
-                        <div class="product__item-content">
-                            <div class="product__item-name">
-                                <a class="product__item-title" href="#">
-                                    Responsive Mobile APP
+                    <div class="products__item mix category-plugins category-popular" data-order="4">
+                        <a href="#" class="products__item-img"
+                            style="background-image: url(images/content-item/4.jpg);"></a>
+                        <div class="products__item-content">
+                            <div class="products__item-name">
+                                <a href="#" class="products__item-title">
+                                    Responsive Mobile App
                                 </a>
-                                <a class="product__item-category" href="#">
-                                    Site Template
+                                <a href="#" class="products__item-category">
+                                    Site Templates
                                 </a>
                             </div>
-                            <div class="product__item-price">
-                                $19
+                            <div class="products__item-price">
+                                19$
                             </div>
                         </div>
-                        <div class="product__item-info">
-                            <a class="product__item-author" href="#">
-                                <div class="avatar" style="background-image: url('images/content-item/user.jpg') ;"></div>
-                                <span>Radiusttheme</span> 
+                        <div class="products__item-info">
+                            <a href="#" class="products__item-author">
+                                <div class="avatar" style="background-image: url(images/content-item/user.jpg);"></div>
+                                <span>Radiustheme</span>
                             </a>
-                            <div class="product__item-star">
+                            <div class="products__item-star">
                                 <div class="rate-star"></div>(<span>05</span>)
                             </div>
                         </div>
                     </div>
-                    <div class="product__item mix category-plugins category-new" data-order="6">
-                        <a class="product__item-img" style="background-image:url('images/content-item/6.jpg') ;" href="#"></a>
-                        <div class="product__item-content">
-                            <div class="product__item-name">
-                                <a class="product__item-title" href="#">
-                                    Responsive Mobile APP
+                    <div class="products__item mix category-components category-new" data-order="5">
+                        <a href="#" class="products__item-img"
+                            style="background-image: url(images/content-item/5.jpg);"></a>
+                        <div class="products__item-content">
+                            <div class="products__item-name">
+                                <a href="#" class="products__item-title">
+                                    Responsive Mobile App
                                 </a>
-                                <a class="product__item-category" href="#">
-                                    Site Template
+                                <a href="#" class="products__item-category">
+                                    Site Templates
                                 </a>
                             </div>
-                            <div class="product__item-price">
-                                $19
+                            <div class="products__item-price">
+                                19$
                             </div>
                         </div>
-                        <div class="product__item-info">
-                            <a class="product__item-author" href="#">
-                                <div class="avatar" style="background-image: url('images/content-item/user.jpg') ;"></div>
-                                <span>Radiusttheme</span> 
+                        <div class="products__item-info">
+                            <a href="#" class="products__item-author">
+                                <div class="avatar" style="background-image: url(images/content-item/user.jpg);"></div>
+                                <span>Radiustheme</span>
                             </a>
-                            <div class="product__item-star">
+                            <div class="products__item-star">
                                 <div class="rate-star"></div>(<span>05</span>)
                             </div>
                         </div>
                     </div>
-                    <div class="product__item mix category-wordpress category-popular" data-order="7">
-                        <a class="product__item-img" style="background-image:url('images/content-item/7.jpg') ;" href="#"></a>
-                        <div class="product__item-content">
-                            <div class="product__item-name">
-                                <a class="product__item-title" href="#">
-                                    Responsive Mobile APP
+                    <div class="products__item mix category-wordpress category-new" data-order="6">
+                        <a href="#" class="products__item-img"
+                            style="background-image: url(images/content-item/6.jpg);"></a>
+                        <div class="products__item-content">
+                            <div class="products__item-name">
+                                <a href="#" class="products__item-title">
+                                    Responsive Mobile App
                                 </a>
-                                <a class="product__item-category" href="#">
-                                    Site Template
+                                <a href="#" class="products__item-category">
+                                    Site Templates
                                 </a>
                             </div>
-                            <div class="product__item-price">
-                                $19
+                            <div class="products__item-price">
+                                19$
                             </div>
                         </div>
-                        <div class="product__item-info">
-                            <a class="product__item-author" href="#">
-                                <div class="avatar" style="background-image: url('images/content-item/user.jpg') ;"></div>
-                                <span>Radiusttheme</span> 
+                        <div class="products__item-info mix category-joomla">
+                            <a href="#" class="products__item-author">
+                                <div class="avatar" style="background-image: url(images/content-item/user.jpg);"></div>
+                                <span>Radiustheme</span>
                             </a>
-                            <div class="product__item-star">
+                            <div class="products__item-star">
                                 <div class="rate-star"></div>(<span>05</span>)
                             </div>
                         </div>
                     </div>
-                    <div class="product__item mix category-component category-new" data-order="8">
-                        <a class="product__item-img" style="background-image:url('images/content-item/8.jpg') ;" href="#"></a>
-                        <div class="product__item-content">
-                            <div class="product__item-name">
-                                <a class="product__item-title" href="#">
-                                    Responsive Mobile APP
+                    <div class="products__item mix category-plugins category-new" data-order="7">
+                        <a href="#" class="products__item-img"
+                            style="background-image: url(images/content-item/7.jpg);"></a>
+                        <div class="products__item-content">
+                            <div class="products__item-name">
+                                <a href="#" class="products__item-title">
+                                    Responsive Mobile App
                                 </a>
-                                <a class="product__item-category" href="#">
-                                    Site Template
+                                <a href="#" class="products__item-category">
+                                    Site Templates
                                 </a>
                             </div>
-                            <div class="product__item-price">
-                                $19
+                            <div class="products__item-price">
+                                19$
                             </div>
                         </div>
-                        <div class="product__item-info">
-                            <a class="product__item-author" href="#">
-                                <div class="avatar" style="background-image: url('images/content-item/user.jpg') ;"></div>
-                                <span>Radiusttheme</span> 
+                        <div class="products__item-info">
+                            <a href="#" class="products__item-author">
+                                <div class="avatar" style="background-image: url(images/content-item/user.jpg);"></div>
+                                <span>Radiustheme</span>
                             </a>
-                            <div class="product__item-star">
-                               <div class="rate-star"></div>(<span>05</span>)
+                            <div class="products__item-star">
+                                <div class="rate-star"></div> (<span>05</span>)
                             </div>
                         </div>
                     </div>
-                                    
+                    <div class="products__item mix category-components category-new" data-order="8">
+                        <a href="#" class="products__item-img"
+                            style="background-image: url(images/content-item/8.jpg);"></a>
+                        <div class="products__item-content">
+                            <div class="products__item-name">
+                                <a href="#" class="products__item-title">
+                                    Responsive Mobile App
+                                </a>
+                                <a href="#" class="products__item-category">
+                                    Site Templates
+                                </a>
+                            </div>
+                            <div class="products__item-price">
+                                19$
+                            </div>
+                        </div>
+                        <div class="products__item-info">
+                            <a href="#" class="products__item-author">
+                                <div class="avatar" style="background-image: url(images/content-item/user.jpg);"></div>
+                                <span>Radiustheme</span>
+                            </a>
+                            <div class="products__item-star">
+                                <div class="rate-star"></div>(<span>05</span>)
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="products__bottom-btn">
-                    <button type="button" data-filter=".category-new">All New Items</button>
-                    <button type="button" data-filter=".category-popular">Popular Items</button>
-                </div>
+            </div>
+            <div class="products__button-btn">
+                <button type="button" data-filter=".category-new">All New Items</button>
+                <button type="button" data-filter=".category-popular">Popular Items</button>
             </div>
         </div>
     </section>
-
 
     <section class="product-slider">
         <div class="container-fluid">
-           <div class="product-slider__title title">
-            This Week Trending Products
-           </div>
-                <div class="product-slider__inner">
-                    
-                    <div class="product__item " data-order="1">
-                        <a class="product__item-img" style="background-image:url('images/slider/9.jpg') ;" href="#"></a>
-                        <div class="product__item-content">
-                            <div class="product__item-name">
-                                <a class="product__item-title" href="#">
-                                    Responsive Mobile APP
-                                </a>
-                                <a class="product__item-category" href="#">
-                                    Site Template
-                                </a>
-                            </div>
-                            <div class="product__item-price">
-                                $19
-                            </div>
-                        </div>
-                        <div class="product__item-info">
-                            <a class="product__item-author" href="#">
-                                <div class="avatar" style="background-image: url('images/content-item/user.jpg') ;"></div>
-                                <span>Radiusttheme</span> 
+            <div class="slider__title title">
+                This Week Trending Products
+            </div>
+            <div class="products-slider__inner">
+                <div class="products__item ">
+                    <a href="#" class="products__item-img" style="background-image: url(images/slider/9.jpg);"></a>
+                    <div class="products__item-content">
+                        <div class="products__item-name">
+                            <a href="#" class="products__item-title">
+                                Responsive Mobile App
                             </a>
-                            <div class="product__item-star">
-                                <div class="rate-star"></div>(<span>05</span>) 
-                            </div>
+                            <a href="#" class="products__item-category">
+                                Site Templates
+                            </a>
+                        </div>
+                        <div class="products__item-price">
+                            19$
                         </div>
                     </div>
-                    <div class="product__item " data-order="1">
-                        <a class="product__item-img" style="background-image:url('images/slider/10.jpg') ;" href="#"></a>
-                        <div class="product__item-content">
-                            <div class="product__item-name">
-                                <a class="product__item-title" href="#">
-                                    Responsive Mobile APP
-                                </a>
-                                <a class="product__item-category" href="#">
-                                    Site Template
-                                </a>
-                            </div>
-                            <div class="product__item-price">
-                                $19
-                            </div>
-                        </div>
-                        <div class="product__item-info">
-                            <a class="product__item-author" href="#">
-                                <div class="avatar" style="background-image: url('images/content-item/user.jpg') ;"></div>
-                                <span>Radiusttheme</span> 
-                            </a>
-                            <div class="product__item-star">
-                                <div class="rate-star"></div>(<span>05</span>) 
-                            </div>
+                    <div class="products__item-info">
+                        <a href="#" class="products__item-author">
+                            <div class="avatar" style="background-image: url(images/content-item/user.jpg);"></div>
+                            <span>Radiustheme</span>
+                        </a>
+                        <div class="products__item-star">
+                            <div class="rate-star"></div>(<span>05</span>)
                         </div>
                     </div>
-                    <div class="product__item " data-order="1">
-                        <a class="product__item-img" style="background-image:url('images/slider/11.jpg') ;" href="#"></a>
-                        <div class="product__item-content">
-                            <div class="product__item-name">
-                                <a class="product__item-title" href="#">
-                                    Responsive Mobile APP
-                                </a>
-                                <a class="product__item-category" href="#">
-                                    Site Template
-                                </a>
-                            </div>
-                            <div class="product__item-price">
-                                $19
-                            </div>
-                        </div>
-                        <div class="product__item-info">
-                            <a class="product__item-author" href="#">
-                                <div class="avatar" style="background-image: url('images/content-item/user.jpg') ;"></div>
-                                <span>Radiusttheme</span> 
+                </div>
+                <div class="products__item">
+                    <a href="#" class="products__item-img" style="background-image: url(images/slider/10.jpg);"></a>
+                    <div class="products__item-content">
+                        <div class="products__item-name">
+                            <a href="#" class="products__item-title">
+                                Responsive Mobile App
                             </a>
-                            <div class="product__item-star">
-                                <div class="rate-star"></div>(<span>05</span>) 
-                            </div>
+                            <a href="#" class="products__item-category">
+                                Site Templates
+                            </a>
+                        </div>
+                        <div class="products__item-price">
+                            19$
                         </div>
                     </div>
-                    <div class="product__item " data-order="1">
-                        <a class="product__item-img" style="background-image:url('images/slider/12.jpg') ;" href="#"></a>
-                        <div class="product__item-content">
-                            <div class="product__item-name">
-                                <a class="product__item-title" href="#">
-                                    Responsive Mobile APP
-                                </a>
-                                <a class="product__item-category" href="#">
-                                    Site Template
-                                </a>
-                            </div>
-                            <div class="product__item-price">
-                                $19
-                            </div>
-                        </div>
-                        <div class="product__item-info">
-                            <a class="product__item-author" href="#">
-                                <div class="avatar" style="background-image: url('images/content-item/user.jpg') ;"></div>
-                                <span>Radiusttheme</span> 
-                            </a>
-                            <div class="product__item-star">
-                                <div class="rate-star"></div>(<span>05</span>) 
-                            </div>
+                    <div class="products__item-info">
+                        <a href="#" class="products__item-author">
+                            <div class="avatar" style="background-image: url(images/content-item/user.jpg);"></div>
+                            <span>Radiustheme</span>
+                        </a>
+                        <div class="products__item-star">
+                            <div class="rate-star"></div>(<span>05</span>)
                         </div>
                     </div>
-                </div> 
+                </div>
+                <div class="products__item">
+                    <a href="#" class="products__item-img" style="background-image: url(images/slider/11.jpg);"></a>
+                    <div class="products__item-content">
+                        <div class="products__item-name">
+                            <a href="#" class="products__item-title">
+                                Responsive Mobile App
+                            </a>
+                            <a href="#" class="products__item-category">
+                                Site Templates
+                            </a>
+                        </div>
+                        <div class="products__item-price">
+                            19$
+                        </div>
+                    </div>
+                    <div class="products__item-info">
+                        <a href="#" class="products__item-author">
+                            <div class="avatar" style="background-image: url(images/content-item/user.jpg);"></div>
+                            <span>Radiustheme</span>
+                        </a>
+                        <div class="products__item-star">
+                            <div class="rate-star"></div>(<span>05</span>)
+                        </div>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <a href="#" class="products__item-img" style="background-image: url(images/slider/12.jpg);"></a>
+                    <div class="products__item-content">
+                        <div class="products__item-name">
+                            <a href="#" class="products__item-title">
+                                Responsive Mobile App
+                            </a>
+                            <a href="#" class="products__item-category">
+                                Site Templates
+                            </a>
+                        </div>
+                        <div class="products__item-price">
+                            19$
+                        </div>
+                    </div>
+                    <div class="products__item-info">
+                        <a href="#" class="products__item-author">
+                            <div class="avatar" style="background-image: url(images/content-item/user.jpg);"></div>
+                            <span>Radiustheme</span>
+                        </a>
+                        <div class="products__item-star">
+                            <div class="rate-star"></div>(<span>05</span>)
+                        </div>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <a href="#" class="products__item-img"
+                        style="background-image: url(images/content-item/8.jpg);"></a>
+                    <div class="products__item-content">
+                        <div class="products__item-name">
+                            <a href="#" class="products__item-title">
+                                Responsive Mobile App
+                            </a>
+                            <a href="#" class="products__item-category">
+                                Site Templates
+                            </a>
+                        </div>
+                        <div class="products__item-price">
+                            19$
+                        </div>
+                    </div>
+                    <div class="products__item-info">
+                        <a href="#" class="products__item-author">
+                            <div class="avatar" style="background-image: url(images/content-item/user.jpg);"></div>
+                            <span>Radiustheme</span>
+                        </a>
+                        <div class="products__item-star">
+                            <div class="rate-star"></div>(<span>05</span>)
+                        </div>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <a href="#" class="products__item-img"
+                        style="background-image: url(images/content-item/8.jpg);"></a>
+                    <div class="products__item-content">
+                        <div class="products__item-name">
+                            <a href="#" class="products__item-title">
+                                Responsive Mobile App
+                            </a>
+                            <a href="#" class="products__item-category">
+                                Site Templates
+                            </a>
+                        </div>
+                        <div class="products__item-price">
+                            19$
+                        </div>
+                    </div>
+                    <div class="products__item-info">
+                        <a href="#" class="products__item-author">
+                            <div class="avatar" style="background-image: url(images/content-item/user.jpg);"></div>
+                            <span>Radiustheme</span>
+                        </a>
+                        <div class="products__item-star">
+                            <div class="rate-star"></div>(<span>05</span>)
+                        </div>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <a href="#" class="products__item-img"
+                        style="background-image: url(images/content-item/8.jpg);"></a>
+                    <div class="products__item-content">
+                        <div class="products__item-name">
+                            <a href="#" class="products__item-title">
+                                Responsive Mobile App
+                            </a>
+                            <a href="#" class="products__item-category">
+                                Site Templates
+                            </a>
+                        </div>
+                        <div class="products__item-price">
+                            19$
+                        </div>
+                    </div>
+                    <div class="products__item-info">
+                        <a href="#" class="products__item-author">
+                            <div class="avatar" style="background-image: url(images/content-item/user.jpg);"></div>
+                            <span>Radiustheme</span>
+                        </a>
+                        <div class="products__item-star">
+                            <div class="rate-star"></div>(<span>05</span>)
+                        </div>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <a href="#" class="products__item-img"
+                        style="background-image: url(images/content-item/8.jpg);"></a>
+                    <div class="products__item-content">
+                        <div class="products__item-name">
+                            <a href="#" class="products__item-title">
+                                Responsive Mobile App
+                            </a>
+                            <a href="#" class="products__item-category">
+                                Site Templates
+                            </a>
+                        </div>
+                        <div class="products__item-price">
+                            19$
+                        </div>
+                    </div>
+                    <div class="products__item-info">
+                        <a href="#" class="products__item-author">
+                            <div class="avatar" style="background-image: url(images/content-item/user.jpg);"></div>
+                            <span>Radiustheme</span>
+                        </a>
+                        <div class="products__item-star">
+                            <div class="rate-star"></div>(<span>05</span>)
+                        </div>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <a href="#" class="products__item-img"
+                        style="background-image: url(images/content-item/8.jpg);"></a>
+                    <div class="products__item-content">
+                        <div class="products__item-name">
+                            <a href="#" class="products__item-title">
+                                Responsive Mobile App
+                            </a>
+                            <a href="#" class="products__item-category">
+                                Site Templates
+                            </a>
+                        </div>
+                        <div class="products__item-price">
+                            19$
+                        </div>
+                    </div>
+                    <div class="products__item-info">
+                        <a href="#" class="products__item-author">
+                            <div class="avatar" style="background-image: url(images/content-item/user.jpg);"></div>
+                            <span>Radiustheme</span>
+                        </a>
+                        <div class="products__item-star">
+                            <div class="rate-star"></div>(<span>05</span>)
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+
     <section class="advantages">
         <div class="container">
-            <div class="advatages__title title">
+            <div class="advantages__title title">
                 Why You Choose Foxtar Market Place?
             </div>
-            <div class="advatages__inner">
-                <div class="advatages__item">
-                    <div class="advatages__item-images icosvg-1">
-                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-                        width="50pt" height="67pt" viewBox="0 0 948.000000 1280.000000"
-                        preserveAspectRatio="xMidYMid meet">
-                        <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
-                        fill="#000000" stroke="none">
-                        <path d="M4522 12739 c-1038 -46 -2010 -476 -2699 -1193 -498 -518 -810 -1145
-                        -902 -1816 -26 -183 -31 -421 -31 -1452 l0 -1088 -420 0 -421 0 -24 -25 -25
-                        -24 0 -3426 0 -3426 25 -24 24 -25 4659 0 4659 0 21 23 22 23 0 3428 0 3427
-                        -25 24 -24 25 -421 0 -420 0 0 1078 c0 1063 -6 1308 -35 1499 -102 680 -408
-                        1288 -905 1797 -318 327 -648 565 -1064 770 -475 234 -1053 382 -1566 401 -80
-                        3 -170 7 -200 9 -30 1 -133 -1 -228 -5z m449 -1179 c561 -55 1068 -255 1474
-                        -583 94 -75 282 -264 356 -357 245 -307 405 -687 449 -1065 6 -56 10 -515 10
-                        -1228 l0 -1137 -2547 2 -2548 3 0 1135 c0 1250 0 1239 64 1491 202 800 886
-                        1439 1779 1663 130 32 356 70 472 79 106 8 396 6 491 -3z"/>
-                        </g>
-                        </svg>
-                    </div>
-                    <div class="advatages__item-title">
-                        Easilty Buy & Sell 
-                    </div>
-                    <div class="advatages__item-text">
-                        Dorem Ipsum is simply dummy text of the pring
-                        and typesetting industry.
-                        Lorem Ipsum has been the industry's standautm.
-                    </div>
-                </div>
-                <div class="advatages__item">
-                    <div class="advatages__item-images icosvg-2">
-                            <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-                            width="71pt" height="73pt" viewBox="0 0 1280.000000 1194.000000"
-                            preserveAspectRatio="xMidYMid meet">
-                            <g transform="translate(0.000000,1194.000000) scale(0.100000,-0.100000)"
-                            fill="#000000" stroke="none">
-                            <path d="M3585 11919 c-282 -44 -480 -117 -695 -256 -363 -235 -627 -622 -714
-                            -1045 -27 -133 -60 -595 -51 -714 29 -370 176 -694 431 -948 201 -201 450
-                            -336 733 -396 l101 -22 2847 -4 c1567 -2 2922 -5 3013 -6 125 -1 185 3 250 16
-                            705 148 1199 733 1204 1426 1 170 -18 438 -39 563 -125 710 -707 1275 -1420
-                            1377 -44 6 -107 15 -141 21 -82 12 -289 12 -394 -2 -408 -52 -613 -104 -882
-                            -225 -433 -194 -822 -528 -1087 -933 -143 -219 -227 -406 -327 -729 -9 -31
-                            -28 -1 -54 83 -86 287 -237 578 -428 825 -90 116 -287 316 -404 411 -241 194
-                            -493 333 -788 434 -192 65 -324 93 -650 134 -128 16 -366 12 -505 -10z m371
-                            -829 c309 -25 574 -113 814 -270 454 -297 733 -765 779 -1304 8 -87 7 -123 -1
-                            -133 -9 -11 -174 -13 -967 -11 -1068 4 -993 -1 -1156 77 -208 99 -367 292
-                            -426 517 -17 65 -21 111 -21 259 -1 218 11 284 84 433 106 218 304 371 548
-                            423 100 21 171 23 346 9z m5220 -25 c274 -69 503 -278 596 -545 54 -156 68
-                            -406 29 -552 -59 -226 -210 -412 -416 -514 -171 -84 -90 -78 -1166 -82 -794
-                            -2 -958 0 -967 11 -14 16 0 199 24 322 132 680 664 1217 1341 1355 212 42 401
-                            44 559 5z"/>
-                            <path d="M0 6825 l0 -845 2770 0 2770 0 -2 843 -3 842 -2767 3 -2768 2 0 -845z"/>
-                            <path d="M7267 7663 c-4 -3 -7 -384 -7 -845 l0 -838 2770 0 2770 0 0 845 0
-                            845 -2763 0 c-1520 0 -2767 -3 -2770 -7z"/>
-                            <path d="M864 5097 c-2 -7 -3 -906 -1 -1997 3 -2184 -1 -2019 63 -2215 110
-                            -331 343 -597 659 -750 111 -53 225 -88 377 -115 114 -20 151 -20 1847 -20
-                            l1731 0 -2 2553 -3 2552 -2333 3 c-1893 2 -2334 0 -2338 -11z"/>
-                            <path d="M7267 5103 c-4 -3 -7 -1153 -7 -2555 l0 -2548 1731 0 c1696 0 1733 0
-                            1847 20 152 27 266 62 377 115 320 155 557 428 663 765 60 191 57 71 57 2225
-                            l0 1980 -2331 3 c-1282 1 -2334 -1 -2337 -5z"/>
-                            </g>
-                            </svg>
-                    </div>
-                    <div class="advatages__item-title">
-                        Quality Products 
-                    </div>
-                    <div class="advatages__item-text">
-                        Dorem Ipsum is simply dummy text of the pring
-                        and typesetting industry.
-                        Lorem Ipsum has been the industry's standautm.
-                    </div>
-                </div>
-                <div class="advatages__item">
-                    <div class="advatages__item-images icosvg-3">
-                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                            width="86px" height="76px" viewBox="0 0 378.94 378.94" style="enable-background:new 0 0 378.94 378.94;"
+            <div class="advantages__inner">
+                <div class="advantages__item">
+                    <div class="advantages__item-images icosvg-1">
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="86px" height="76px"
+                            viewBox="0 0 378.94 378.94" style="enable-background:new 0 0 378.94 378.94;"
                             xml:space="preserve">
-                        <g>
-                            <path d="M348.151,54.514c-19.883-19.884-46.315-30.826-74.435-30.826c-28.124,0-54.559,10.942-74.449,30.826l-9.798,9.8l-9.798-9.8
-                                c-19.884-19.884-46.325-30.826-74.443-30.826c-28.117,0-54.56,10.942-74.442,30.826c-41.049,41.053-41.049,107.848,0,148.885
-                                l147.09,147.091c2.405,2.414,5.399,3.892,8.527,4.461c1.049,0.207,2.104,0.303,3.161,0.303c4.161,0,8.329-1.587,11.498-4.764
-                                l147.09-147.091C389.203,162.362,389.203,95.567,348.151,54.514z M325.155,180.404L189.47,316.091L53.782,180.404
-                                c-28.368-28.364-28.368-74.514,0-102.893c13.741-13.739,32.017-21.296,51.446-21.296c19.431,0,37.702,7.557,51.438,21.296
-                                l21.305,21.312c6.107,6.098,16.897,6.098,23.003,0l21.297-21.312c13.737-13.739,32.009-21.296,51.446-21.296
-                                c19.431,0,37.701,7.557,51.438,21.296C353.526,105.89,353.526,152.039,325.155,180.404z"/>
-                        </g>
-
+                            <g>
+                                <path
+                                    d="M348.151,54.514c-19.883-19.884-46.315-30.826-74.435-30.826c-28.124,0-54.559,10.942-74.449,30.826l-9.798,9.8l-9.798-9.8 c-19.884-19.884-46.325-30.826-74.443-30.826c-28.117,0-54.56,10.942-74.442,30.826c-41.049,41.053-41.049,107.848,0,148.885 l147.09,147.091c2.405,2.414,5.399,3.892,8.527,4.461c1.049,0.207,2.104,0.303,3.161,0.303c4.161,0,8.329-1.587,11.498-4.764 l147.09-147.091C389.203,162.362,389.203,95.567,348.151,54.514z M325.155,180.404L189.47,316.091L53.782,180.404 c-28.368-28.364-28.368-74.514,0-102.893c13.741-13.739,32.017-21.296,51.446-21.296c19.431,0,37.702,7.557,51.438,21.296 l21.305,21.312c6.107,6.098,16.897,6.098,23.003,0l21.297-21.312c13.737-13.739,32.009-21.296,51.446-21.296 c19.431,0,37.701,7.557,51.438,21.296C353.526,105.89,353.526,152.039,325.155,180.404z" />
+                            </g>
                         </svg>
                     </div>
-                    <div class="advatages__item-title">
-                        100% Secure Payment 
+                    <div class="advantages__item-title">
+                        Easily Buy & Sell
                     </div>
-                    <div class="advatages__item-text">
-                        Dorem Ipsum is simply dummy text of the pring
-                        and typesetting industry.
-                        Lorem Ipsum has been the industry's standautm.
+                    <div class="advantages__item-text">
+                        Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem Ipsum has been the
+                        industry's standaum.
                     </div>
                 </div>
-
-                    
+                <div class="advantages__item">
+                    <div class="advantages__item-images icosvg-2">
+                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="50pt" height="67pt"
+                            viewBox="0 0 948.000000 1280.000000" preserveAspectRatio="xMidYMid meet">
+                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)" fill="#000000"
+                                stroke="none">
+                                <path d="M4522 12739 c-1038 -46 -2010 -476 -2699 -1193 -498 -518 -810 -1145
+                                -902 -1816 -26 -183 -31 -421 -31 -1452 l0 -1088 -420 0 -421 0 -24 -25  -25
+                                -24 0 -3426 0 -3426 25 -24 24 -25 4659 0 4659 0 21 23 22 23 0 3428 0  3427
+                                -25 24 -24 25 -421 0 -420 0 0 1078 c0 1063 -6 1308 -35 1499 -102 680  -408
+                                1288 -905 1797 -318 327 -648 565 -1064 770 -475 234 -1053 382 -1566  401 -80
+                                3 -170 7 -200 9 -30 1 -133 -1 -228 -5z m449 -1179 c561 -55 1068 -255 1474
+                                -583 94 -75 282 -264 356 -357 245 -307 405 -687 449 -1065 6 -56 10                              -515 10 -1228 l0 -1137 -2547 2 -2548 3 0 1135 c0 1250 0 1239 64 1491 202 800  886
+                                1439 1779 1663 130 32 356 70 472 79 106 8 396 6 491 -3z" />
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="advantages__item-title">
+                        Quality Products
+                    </div>
+                    <div class="advantages__item-text">
+                        Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem Ipsum has been the
+                        industry's standaum.
+                    </div>
+                </div>
+                <div class="advantages__item">
+                    <div class="advantages__item-images icosvg-3">
+                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="71pt" height="73pt"
+                            viewBox="0 0 1280.000000 1194.000000" preserveAspectRatio="xMidYMid meet">
+                            <g transform="translate(0.000000,1194.000000) scale(0.100000,-0.100000)" fill="#000000"
+                                stroke="none">
+                                <path d="M3585 11919 c-282 -44 -480 -117 -695 -256 -363 -235 -627 -622 -714
+                        -1045 -27 -133 -60 -595 -51 -714 29 -370 176 -694 431 -948 201 -201 450
+                        -336 733 -396 l101 -22 2847 -4 c1567 -2 2922 -5 3013 -6 125 -1 185 3 250 16
+                        705 148 1199 733 1204 1426 1 170 -18 438 -39 563 -125 710 -707 1275 -1420
+                        1377 -44 6 -107 15 -141 21 -82 12 -289 12 -394 -2 -408 -52 -613 -104 -882
+                        -225 -433 -194 -822 -528 -1087 -933 -143 -219 -227 -406 -327 -729 -9 -31
+                        -28 -1 -54 83 -86 287 -237 578 -428 825 -90 116 -287 316 -404 411 -241 194
+                        -493 333 -788 434 -192 65 -324 93 -650 134 -128 16 -366 12 -505 -10z m371
+                        -829 c309 -25 574 -113 814 -270 454 -297 733 -765 779 -1304 8 -87 7 -123 -1
+                        -133 -9 -11 -174 -13 -967 -11 -1068 4 -993 -1 -1156 77 -208 99 -367 292
+                        -426 517 -17 65 -21 111 -21 259 -1 218 11 284 84 433 106 218 304 371 548
+                        423 100 21 171 23 346 9z m5220 -25 c274 -69 503 -278 596 -545 54 -156 68
+                        -406 29 -552 -59 -226 -210 -412 -416 -514 -171 -84 -90 -78 -1166 -82 -794
+                        -2 -958 0 -967 11 -14 16 0 199 24 322 132 680 664 1217 1341 1355 212 42 401
+                        44 559 5z" />
+                                <path d="M0 6825 l0 -845 2770 0 2770 0 -2 843 -3 842 -2767 3 -2768 2 0 -845z" />
+                                <path d="M7267 7663 c-4 -3 -7 -384 -7 -845 l0 -838 2770 0 2770 0 0 845 0
+                        845 -2763 0 c-1520 0 -2767 -3 -2770 -7z" />
+                                <path d="M864 5097 c-2 -7 -3 -906 -1 -1997 3 -2184 -1 -2019 63 -2215 110
+                        -331 343 -597 659 -750 111 -53 225 -88 377 -115 114 -20 151 -20 1847 -20
+                        l1731 0 -2 2553 -3 2552 -2333 3 c-1893 2 -2334 0 -2338 -11z" />
+                                <path d="M7267 5103 c-4 -3 -7 -1153 -7 -2555 l0 -2548 1731 0 c1696 0 1733 0
+                        1847 20 152 27 266 62 377 115 320 155 557 428 663 765 60 191 57 71 57 2225
+                        l0 1980 -2331 3 c-1282 1 -2334 -1 -2337 -5z" />
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="advantages__item-title">
+                        100% Secure Payment
+                    </div>
+                    <div class="advantages__item-text">
+                        Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem Ipsum has been the
+                        industry's standaum.
+                    </div>
+                </div>
             </div>
-            
         </div>
     </section>
 
-    <section class="author" style="background-image: url('../images/bg5.jpg');">
+    <section class="author"
+        style="background-image: url(images/author-bg.jpg); background-repeat: no-repeat; background-size: contain; background-position: center;">
         <div class="author__box">
             <div class="author__title">
-                Over <span>20,000</span>  Author 
+                Over <span>20,000</span> Author
                 Are Involved Here!
             </div>
-            <a href="#" class="author__link">
-                Become An Author
-            </a>
+            <a href="#" class="author__link">Become An Author</a>
         </div>
     </section>
+
 
     <section class="tutorial">
         <div class="container">
             <div class="tutorial__title title">
-                Free Monthly Tutorials To Help You With Your Project 
+                Free Monthly Tutorials To Help You With Your Project
             </div>
             <div class="tutorial__inner">
                 <div class="tutorial__item">
-                    <div class="tutorial__item-images" style="background-image: url('images/tutorial/13.jpg');"></div>
+                    <div class="tutorial__item-images" style="background-image: url(images/tutorial/13.jpg);">
+
+                    </div>
                     <div class="tutorial__item-title">
-                        Web Design Tutorials
+                        Web Design
                     </div>
                 </div>
                 <div class="tutorial__item">
-                    <div class="tutorial__item-images" style="background-image: url('images/tutorial/14.jpg');"></div>
+                    <div class="tutorial__item-images" style="background-image: url(images/tutorial/14.jpg);">
+
+                    </div>
                     <div class="tutorial__item-title">
-                        Word Press Tutorials
+                        WordPress Tutorials
                     </div>
                 </div>
                 <div class="tutorial__item">
-                    <div class="tutorial__item-images" style="background-image: url('images/tutorial/15.jpg');"></div>
+                    <div class="tutorial__item-images" style="background-image: url(images/tutorial/15.jpg);">
+
+                    </div>
                     <div class="tutorial__item-title">
-                        HTML & CSS Tutorials
+                        Tutorials HTML & CSS Tutorials
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__col">
+                        <div class="footer__col-title">
+                            About Company
+                        </div>
+                        <div class="footer__col-text">
+                            Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse.Fusce sit
+                            amet urna iat.Praesent vel rutrum purus.
+                        </div>
+
+                        <div class="footer__info">
+                            <div class="footer__info-img ">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="10" height="17"
+                                    viewBox="0 0 16 28">
+                                    <title>map-marker</title>
+                                    <path
+                                        d="M12 10c0-2.203-1.797-4-4-4s-4 1.797-4 4 1.797 4 4 4 4-1.797 4-4zM16 10c0 0.953-0.109 1.937-0.516 2.797l-5.688 12.094c-0.328 0.688-1.047 1.109-1.797 1.109s-1.469-0.422-1.781-1.109l-5.703-12.094c-0.406-0.859-0.516-1.844-0.516-2.797 0-4.422 3.578-8 8-8s8 3.578 8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="footer__info-address">
+                                PO Box 16122 Collins Street West
+                                Victoria 8007 Australia
+                            </div>
+
+                        </div>
+                        <div class="  footer__info">
+                            <div class="footer__telephone-img  footer__info-img ">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="14" height="16"
+                                    viewBox="0 0 22 28">
+                                    <title>phone</title>
+                                    <path
+                                        d="M22 19.375c0 0.562-0.25 1.656-0.484 2.172-0.328 0.766-1.203 1.266-1.906 1.656-0.922 0.5-1.859 0.797-2.906 0.797-1.453 0-2.766-0.594-4.094-1.078-0.953-0.344-1.875-0.766-2.734-1.297-2.656-1.641-5.859-4.844-7.5-7.5-0.531-0.859-0.953-1.781-1.297-2.734-0.484-1.328-1.078-2.641-1.078-4.094 0-1.047 0.297-1.984 0.797-2.906 0.391-0.703 0.891-1.578 1.656-1.906 0.516-0.234 1.609-0.484 2.172-0.484 0.109 0 0.219 0 0.328 0.047 0.328 0.109 0.672 0.875 0.828 1.188 0.5 0.891 0.984 1.797 1.5 2.672 0.25 0.406 0.719 0.906 0.719 1.391 0 0.953-2.828 2.344-2.828 3.187 0 0.422 0.391 0.969 0.609 1.344 1.578 2.844 3.547 4.813 6.391 6.391 0.375 0.219 0.922 0.609 1.344 0.609 0.844 0 2.234-2.828 3.187-2.828 0.484 0 0.984 0.469 1.391 0.719 0.875 0.516 1.781 1 2.672 1.5 0.313 0.156 1.078 0.5 1.188 0.828 0.047 0.109 0.047 0.219 0.047 0.328z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="footer__info-number">
+                                <a class="footer__info-phone" href="tel:61383766284">
+                                    +61 3 8376 6284
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__col">
+                        <div class="footer__col-title">
+                            Join Our Community
+                        </div>
+                        <ul class="footer__col-list footer__col-menu">
+                            <li><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="12" height="20"
+                                    viewBox="0 0 9 28">
+                                    <title>angle-right</title>
+                                    <path
+                                        d="M9.297 15c0 0.125-0.063 0.266-0.156 0.359l-7.281 7.281c-0.094 0.094-0.234 0.156-0.359 0.156s-0.266-0.063-0.359-0.156l-0.781-0.781c-0.094-0.094-0.156-0.219-0.156-0.359 0-0.125 0.063-0.266 0.156-0.359l6.141-6.141-6.141-6.141c-0.094-0.094-0.156-0.234-0.156-0.359s0.063-0.266 0.156-0.359l0.781-0.781c0.094-0.094 0.234-0.156 0.359-0.156s0.266 0.063 0.359 0.156l7.281 7.281c0.094 0.094 0.156 0.234 0.156 0.359z">
+                                    </path>
+                                </svg>
+                                <a href="#">Home</a>
+                            </li>
+                            <li><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="12" height="20"
+                                    viewBox="0 0 9 28">
+                                    <title>angle-right</title>
+                                    <path
+                                        d="M9.297 15c0 0.125-0.063 0.266-0.156 0.359l-7.281 7.281c-0.094 0.094-0.234 0.156-0.359 0.156s-0.266-0.063-0.359-0.156l-0.781-0.781c-0.094-0.094-0.156-0.219-0.156-0.359 0-0.125 0.063-0.266 0.156-0.359l6.141-6.141-6.141-6.141c-0.094-0.094-0.156-0.234-0.156-0.359s0.063-0.266 0.156-0.359l0.781-0.781c0.094-0.094 0.234-0.156 0.359-0.156s0.266 0.063 0.359 0.156l7.281 7.281c0.094 0.094 0.156 0.234 0.156 0.359z">
+                                    </path>
+                                </svg>
+                                <a href="#">Forums</a>
+                            </li>
+                            <li><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="12" height="20""
+                                    viewBox="0 0 9 28">
+                                    <title>angle-right</title>
+                                    <path
+                                        d="M9.297 15c0 0.125-0.063 0.266-0.156 0.359l-7.281 7.281c-0.094 0.094-0.234 0.156-0.359 0.156s-0.266-0.063-0.359-0.156l-0.781-0.781c-0.094-0.094-0.156-0.219-0.156-0.359 0-0.125 0.063-0.266 0.156-0.359l6.141-6.141-6.141-6.141c-0.094-0.094-0.156-0.234-0.156-0.359s0.063-0.266 0.156-0.359l0.781-0.781c0.094-0.094 0.234-0.156 0.359-0.156s0.266 0.063 0.359 0.156l7.281 7.281c0.094 0.094 0.156 0.234 0.156 0.359z">
+                                    </path>
+                                </svg>
+                                <a href="#">Become an Author</a>
+                            </li>
+                            <li><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="12" height="20"
+                                    viewBox="0 0 9 28">
+                                    <title>angle-right</title>
+                                    <path
+                                        d="M9.297 15c0 0.125-0.063 0.266-0.156 0.359l-7.281 7.281c-0.094 0.094-0.234 0.156-0.359 0.156s-0.266-0.063-0.359-0.156l-0.781-0.781c-0.094-0.094-0.156-0.219-0.156-0.359 0-0.125 0.063-0.266 0.156-0.359l6.141-6.141-6.141-6.141c-0.094-0.094-0.156-0.234-0.156-0.359s0.063-0.266 0.156-0.359l0.781-0.781c0.094-0.094 0.234-0.156 0.359-0.156s0.266 0.063 0.359 0.156l7.281 7.281c0.094 0.094 0.156 0.234 0.156 0.359z">
+                                    </path>
+                                </svg>
+                                <a href="#">Community Meetups</a>
+                            </li>
+                            <li><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="12" height="20"
+                                    viewBox="0 0 9 28">
+                                    <title>angle-right</title>
+                                    <path
+                                        d="M9.297 15c0 0.125-0.063 0.266-0.156 0.359l-7.281 7.281c-0.094 0.094-0.234 0.156-0.359 0.156s-0.266-0.063-0.359-0.156l-0.781-0.781c-0.094-0.094-0.156-0.219-0.156-0.359 0-0.125 0.063-0.266 0.156-0.359l6.141-6.141-6.141-6.141c-0.094-0.094-0.156-0.234-0.156-0.359s0.063-0.266 0.156-0.359l0.781-0.781c0.094-0.094 0.234-0.156 0.359-0.156s0.266 0.063 0.359 0.156l7.281 7.281c0.094 0.094 0.156 0.234 0.156 0.359z">
+                                    </path>
+                                </svg>
+                                <a href="#">Become an Affiliate</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__col">
+                        <div class="footer__col-title">
+                            Need Help?
+                        </div>
+                        <ul class="footer__col-list footer__col-menu">
+                            <li><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="12" height="20"
+                                    viewBox="0 0 9 28">
+                                    <title>angle-right</title>
+                                    <path
+                                        d="M9.297 15c0 0.125-0.063 0.266-0.156 0.359l-7.281 7.281c-0.094 0.094-0.234 0.156-0.359 0.156s-0.266-0.063-0.359-0.156l-0.781-0.781c-0.094-0.094-0.156-0.219-0.156-0.359 0-0.125 0.063-0.266 0.156-0.359l6.141-6.141-6.141-6.141c-0.094-0.094-0.156-0.234-0.156-0.359s0.063-0.266 0.156-0.359l0.781-0.781c0.094-0.094 0.234-0.156 0.359-0.156s0.266 0.063 0.359 0.156l7.281 7.281c0.094 0.094 0.156 0.234 0.156 0.359z">
+                                    </path>
+                                </svg><a href="#">Help Center</a></li>
+                            <li><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="12" height="20"
+                                    viewBox="0 0 9 28">
+                                    <title>angle-right</title>
+                                    <path
+                                        d="M9.297 15c0 0.125-0.063 0.266-0.156 0.359l-7.281 7.281c-0.094 0.094-0.234 0.156-0.359 0.156s-0.266-0.063-0.359-0.156l-0.781-0.781c-0.094-0.094-0.156-0.219-0.156-0.359 0-0.125 0.063-0.266 0.156-0.359l6.141-6.141-6.141-6.141c-0.094-0.094-0.156-0.234-0.156-0.359s0.063-0.266 0.156-0.359l0.781-0.781c0.094-0.094 0.234-0.156 0.359-0.156s0.266 0.063 0.359 0.156l7.281 7.281c0.094 0.094 0.156 0.234 0.156 0.359z">
+                                    </path>
+                                </svg><a href="#">Foxtar Market Terms</a></li>
+                            <li><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="12" height="20"
+                                    viewBox="0 0 9 28">
+                                    <title>angle-right</title>
+                                    <path
+                                        d="M9.297 15c0 0.125-0.063 0.266-0.156 0.359l-7.281 7.281c-0.094 0.094-0.234 0.156-0.359 0.156s-0.266-0.063-0.359-0.156l-0.781-0.781c-0.094-0.094-0.156-0.219-0.156-0.359 0-0.125 0.063-0.266 0.156-0.359l6.141-6.141-6.141-6.141c-0.094-0.094-0.156-0.234-0.156-0.359s0.063-0.266 0.156-0.359l0.781-0.781c0.094-0.094 0.234-0.156 0.359-0.156s0.266 0.063 0.359 0.156l7.281 7.281c0.094 0.094 0.156 0.234 0.156 0.359z">
+                                    </path>
+                                </svg><a href="#">Author Terms</a></li>
+                            <li><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="12" height="20"
+                                    viewBox="0 0 9 28">
+                                    <title>angle-right</title>
+                                    <path
+                                        d="M9.297 15c0 0.125-0.063 0.266-0.156 0.359l-7.281 7.281c-0.094 0.094-0.234 0.156-0.359 0.156s-0.266-0.063-0.359-0.156l-0.781-0.781c-0.094-0.094-0.156-0.219-0.156-0.359 0-0.125 0.063-0.266 0.156-0.359l6.141-6.141-6.141-6.141c-0.094-0.094-0.156-0.234-0.156-0.359s0.063-0.266 0.156-0.359l0.781-0.781c0.094-0.094 0.234-0.156 0.359-0.156s0.266 0.063 0.359 0.156l7.281 7.281c0.094 0.094 0.156 0.234 0.156 0.359z">
+                                    </path>
+                                </svg><a href="#">Foxtar Licenses</a></li>
+                            <li><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="12" height="20"
+                                    viewBox="0 0 9 28">
+                                    <title>angle-right</title>
+                                    <path
+                                        d="M9.297 15c0 0.125-0.063 0.266-0.156 0.359l-7.281 7.281c-0.094 0.094-0.234 0.156-0.359 0.156s-0.266-0.063-0.359-0.156l-0.781-0.781c-0.094-0.094-0.156-0.219-0.156-0.359 0-0.125 0.063-0.266 0.156-0.359l6.141-6.141-6.141-6.141c-0.094-0.094-0.156-0.234-0.156-0.359s0.063-0.266 0.156-0.359l0.781-0.781c0.094-0.094 0.234-0.156 0.359-0.156s0.266 0.063 0.359 0.156l7.281 7.281c0.094 0.094 0.156 0.234 0.156 0.359z">
+                                    </path>
+                                </svg><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col">
+                        <div class="footer__col-title">
+                            Follow Us On
+                        </div>
+                        <ul class="footer__social-link">
+                            <li><a href="#"><img src="images/content-item/Layer 232.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/content-item/Layer 233.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/content-item/Layer 234.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/content-item/Layer 235.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/content-item/236.png" alt=""></a></li>
+                        </ul>
+                        <div class="footer__form">
+                            <div class="footer__form-title">
+                                Newsletter Sign Up!
+                            </div>
+                            <form action="">
+                                <input type="text" placeholder="E-mail Address">
+                                <button type="submit">
+                                    <div class="submit__img">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="22" height="28" viewBox="0 0 22 28">
+                                            <title>location-arrow</title>
+                                            <path d="M21.891 5.453l-10 20c-0.172 0.344-0.516 0.547-0.891 0.547-0.078 0-0.156-0.016-0.234-0.031-0.453-0.109-0.766-0.5-0.766-0.969v-9h-9c-0.469 0-0.859-0.313-0.969-0.766s0.109-0.922 0.516-1.125l20-10c0.141-0.078 0.297-0.109 0.453-0.109 0.266 0 0.516 0.094 0.703 0.297 0.313 0.297 0.391 0.766 0.187 1.156z"></path>
+                                            </svg>
+                                            
+                                    </div>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__copy">
+                <div class="container">
+                    <div class="footer__copy-text">
+                        © 2017 Foxtar market place. Trademarks and brands are the property of their respective owners.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
 
 
 
@@ -617,12 +933,19 @@
 
 
 
-    
+
+
+
+
+
+
+
     <!-- <script type="text/javascript" src="dest/script/script.js" ></script> -->
+    <script src="slick/slick.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="dest/scripts/libs.min.js"></script>
     <script src="dest/scripts/script.js"></script>
-    
+
 </body>
 
 </html>

@@ -8,10 +8,13 @@ function closeDialog() {
     dialog.close();
 }
 
+    var mixer = mixitup('.products__inner-box');
 
-$(function(){
 
     $(function () {
+
+
+        
  
         $(".rate-star").rateYo({
           rating: 5,
@@ -20,25 +23,12 @@ $(function(){
         });
       }); 
 
-        // $(".product-slider__inner").slick({
-        //     dots: true,
-        //     slidesToShow: 1,
-        //     slidesToScroll: 4,
-        //     arrows: false,
-        //     centerMode: true,
-        //     draggable: true,
+        $(".products-slider__inner").slick({
+            dots: true,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+        });
 
-        // });
+    
 
-
-
-
-
-
-
-
-
-
-    var mixer = mixitup('.products__inner-box');
-});
 
