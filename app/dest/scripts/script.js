@@ -21,6 +21,22 @@ function closeDialog() {
           readOnly: true,
           starWidth: "12px"
         });
+        $(".rating__item").rateYo({
+          rating: 5,
+          readOnly: true,
+          starWidth: "12px"
+        });
+
+        $(".js-range-slider").ionRangeSlider({
+          type: "double",
+          min: 0,
+          max: 1000,
+          from: 200,
+          to: 500,
+          grid: true
+      });
+
+
       }); 
 
         $(".products-slider__inner").slick({
@@ -29,6 +45,6 @@ function closeDialog() {
             slidesToScroll: 4,
         });
 
-    
-
+        
+        
 
