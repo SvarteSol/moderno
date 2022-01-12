@@ -682,6 +682,10 @@
     }
 }
 
+
+
+
+
 .product-page__aside{
     .products__item-img{
         min-height: 110px;
@@ -728,7 +732,41 @@
         padding-bottom: 30px;
         margin-bottom: 30px;
     }
+    
 }
+
+
+// Price range strat
+.filters__item{
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    .filters-price__inputs{
+        display: flex;
+        justify-content: space-between;
+    }
+    .filter-price__label{
+        display: flex;
+        align-items: center;
+    } 
+    .filters-price__input{
+        border: none;
+        padding: 5px; 
+    }
+}
+// Price range end
+
+
+
+
+
+
+
+
+
+
 
 .top-sellers__link{
     padding: 16px 10px;
@@ -749,12 +787,46 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
     button{
-        cursor: pointer;
-        background-color: transperent;
-        border: none;
+            cursor: pointer;
+            background-color: #fff;
+            border: none;
+            padding: 0;
+            position: relative;
+            top: 2px;
+            .active{
+                color: #8bc34a;
+            } 
+
+    }
+    .box-1__button-1{
+        padding-left: 0px; 
+        padding-right: 12px;
+        
+        }
+    .filter__text{
+        padding-right: 15px;
     }
 }
+.product-page__filter-box-1,
+.product-page__filter-box-2{
+    display: flex;
+    svg{
+        display: inline;
+        fill: #455a64;
+        &.active{
+            fill: #8bc34a;
+        } 
+    }
+}  
+.product-page__filter-box-2{
+   padding-right: 5px;
+   .th-large{
+       margin-right: 12px;
+   } 
+} 
+
 .product-page__content{
     width: 100%;
 }
@@ -835,43 +907,3 @@
 
 
 
-// .aside-products__item{
-//     width: 208px;
-//     &-img{
-//         height: 120px;
-//         width: 208px;
-//         background-position: center;
-//         background-repeat: no-repeat;
-//         background-size: cover;
-//         margin-bottom: 20px;
-//         margin-top: 24px;
-//     }
-//     &-content{
-//         display: flex;
-//         justify-content: space-between;
-//         align-items: center;
-//     }
-//     &-title{
-//         font-size: 16px;
-//         @include f700;
-//         color: $bg;
-//     }
-//     &-category{
-//         font-size: 14px;
-//         @include f500;
-//         color: $green;
-//     }
-//     &-price{
-//         font-size: 16px;
-//         @include f700;
-//         color: $bg;
-//     }   
-// }
-// .aside-products__item-info{
-//     .aside-products__item-author{
-//         height: 30px;
-//         width: 30px;
-//         border-radius: 50%;
-//     }
-// }
-// product-page end

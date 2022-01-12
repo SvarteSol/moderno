@@ -206,19 +206,36 @@
                                 <div class="aside__title">
                                     Price Range
                                 </div>
-                                <form action="">
-                                    <input type="text" class="js-range-slider" name="my_range" value="" />
-                                    
-                                </form>
+                                <div class="filters__item filters__price">
+                                    <div class="filters-price__slider" id="range-slider"></div>
+                                    <div class="filters-price__inputs">
+                                        <label class="filter-price__label">
+                                            <span class="filters-price__text">$</span>
+                                            <input min="0" max="2000" placeholder="0" type="number" class="filters-price__input" id="input-1">
+                                        </label>
+                                        <label class="filter-price__label">
+                                            <span class="filters-price__text">$</span>
+                                            <input min="0" max="2000"  placeholder="2000" type="number" class="filters-price__input" id="input-2">
+                                        </label>
+                                        
+                                        
+                                    </div>
+                                </div>
+
+
+
                                 <button type="submit">
                                     <div class="search-img">
-                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 32 32">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="15"
+                                            viewBox="0 0 32 32">
                                             <title>search</title>
-                                            <path d="M31.008 27.231l-7.58-6.447c-0.784-0.705-1.622-1.029-2.299-0.998 1.789-2.096 2.87-4.815 2.87-7.787 0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12c2.972 0 5.691-1.081 7.787-2.87-0.031 0.677 0.293 1.515 0.998 2.299l6.447 7.58c1.104 1.226 2.907 1.33 4.007 0.23s0.997-2.903-0.23-4.007zM12 20c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z"></path>
-                                            </svg>                                            
+                                            <path
+                                                d="M31.008 27.231l-7.58-6.447c-0.784-0.705-1.622-1.029-2.299-0.998 1.789-2.096 2.87-4.815 2.87-7.787 0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12c2.972 0 5.691-1.081 7.787-2.87-0.031 0.677 0.293 1.515 0.998 2.299l6.447 7.58c1.104 1.226 2.907 1.33 4.007 0.23s0.997-2.903-0.23-4.007zM12 20c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z">
+                                            </path>
+                                        </svg>
                                     </div>
                                     <!-- <img src="images/icons/search.png" alt=""> -->
-                                    <div class="search-text">Search</div>   
+                                    <div class="search-text">Search</div>
                                 </button>
                             </div>
                             <div class="top-sellers aside-item">
@@ -226,107 +243,165 @@
                                     Top 10 Sellers
                                 </div>
                                 <div class="aside__product-item">
-                                <div class="products__item " >
-                                    <a href="#" class="products__item-img"
-                                        style="background-image: url(images/content-item/1.jpg);"></a>
-                                    <div class="products__item-content">
-                                        <div class="products__item-name-aside">
-                                            <a href="#" class="products__item-title">
-                                                The Post Grid Pro
-                                            </a>
-                                            <a href="#" class="products__item-category">
-                                                WordPress Plugin
-                                            </a>
+                                    <div class="products__item ">
+                                        <a href="#" class="products__item-img"
+                                            style="background-image: url(images/content-item/1.jpg);"></a>
+                                        <div class="products__item-content">
+                                            <div class="products__item-name-aside">
+                                                <a href="#" class="products__item-title">
+                                                    The Post Grid Pro
+                                                </a>
+                                                <a href="#" class="products__item-category">
+                                                    WordPress Plugin
+                                                </a>
+                                            </div>
+                                            <div class="products__item-price">
+                                                19$
+                                            </div>
                                         </div>
-                                        <div class="products__item-price">
-                                            19$
-                                        </div>
-                                    </div>
-                                    <div class="products__item-info">
-                                        <a href="#" class="products__item-author">
-                                            <div class="new-avatar" style="background-image: url(images/content-item/user.jpg);"></div>
-                                            <span>PsdBosS</span>
-                                        </a>
-                                            
+                                        <div class="products__item-info">
+                                            <a href="#" class="products__item-author">
+                                                <div class="new-avatar"
+                                                    style="background-image: url(images/content-item/user.jpg);"></div>
+                                                <span>PsdBosS</span>
+                                            </a>
 
-                                        <!-- <div class="products__item-star">
+
+                                            <!-- <div class="products__item-star">
                                             <div class="rate-star"></div><span class="product__item-starnum">(05)</span>
                                         </div> -->
-                                    </div>
-                                </div>
-                                <div class="products__item " >
-                                    <a href="#" class="products__item-img"
-                                        style="background-image: url(images/content-item/1.jpg);"></a>
-                                    <div class="products__item-content">
-                                        <div class="products__item-name-aside">
-                                            <a href="#" class="products__item-title">
-                                                The Post Grid Pro
-                                            </a>
-                                            <a href="#" class="products__item-category">
-                                                WordPress Plugin
-                                            </a>
-                                        </div>
-                                        <div class="products__item-price">
-                                            19$
                                         </div>
                                     </div>
-                                    <div class="products__item-info">
-                                        <a href="#" class="products__item-author">
-                                            <div class="new-avatar" style="background-image: url(images/content-item/user.jpg);"></div>
-                                            <span>PsdBosS</span>
-                                        </a>
-                                            
+                                    <div class="products__item ">
+                                        <a href="#" class="products__item-img"
+                                            style="background-image: url(images/content-item/1.jpg);"></a>
+                                        <div class="products__item-content">
+                                            <div class="products__item-name-aside">
+                                                <a href="#" class="products__item-title">
+                                                    The Post Grid Pro
+                                                </a>
+                                                <a href="#" class="products__item-category">
+                                                    WordPress Plugin
+                                                </a>
+                                            </div>
+                                            <div class="products__item-price">
+                                                19$
+                                            </div>
+                                        </div>
+                                        <div class="products__item-info">
+                                            <a href="#" class="products__item-author">
+                                                <div class="new-avatar"
+                                                    style="background-image: url(images/content-item/user.jpg);"></div>
+                                                <span>PsdBosS</span>
+                                            </a>
 
-                                        <!-- <div class="products__item-star">
+
+                                            <!-- <div class="products__item-star">
                                             <div class="rate-star"></div><span class="product__item-starnum">(05)</span>
                                         </div> -->
-                                    </div>
-                                </div>
-                                <div class="products__item " >
-                                    <a href="#" class="products__item-img"
-                                        style="background-image: url(images/content-item/1.jpg);"></a>
-                                    <div class="products__item-content">
-                                        <div class="products__item-name-aside">
-                                            <a href="#" class="products__item-title">
-                                                The Post Grid Pro
-                                            </a>
-                                            <a href="#" class="products__item-category">
-                                                WordPress Plugin
-                                            </a>
-                                        </div>
-                                        <div class="products__item-price">
-                                            19$
                                         </div>
                                     </div>
-                                    <div class="products__item-info">
-                                        <a href="#" class="products__item-author">
-                                            <div class="new-avatar" style="background-image: url(images/content-item/user.jpg);"></div>
-                                            <span>PsdBosS</span>
-                                        </a>
-                                            
+                                    <div class="products__item ">
+                                        <a href="#" class="products__item-img"
+                                            style="background-image: url(images/content-item/1.jpg);"></a>
+                                        <div class="products__item-content">
+                                            <div class="products__item-name-aside">
+                                                <a href="#" class="products__item-title">
+                                                    The Post Grid Pro
+                                                </a>
+                                                <a href="#" class="products__item-category">
+                                                    WordPress Plugin
+                                                </a>
+                                            </div>
+                                            <div class="products__item-price">
+                                                19$
+                                            </div>
+                                        </div>
+                                        <div class="products__item-info">
+                                            <a href="#" class="products__item-author">
+                                                <div class="new-avatar"
+                                                    style="background-image: url(images/content-item/user.jpg);"></div>
+                                                <span>PsdBosS</span>
+                                            </a>
 
-                                        <!-- <div class="products__item-star">
+
+                                            <!-- <div class="products__item-star">
                                             <div class="rate-star"></div><span class="product__item-starnum">(05)</span>
                                         </div> -->
+                                        </div>
                                     </div>
-                                </div>
                                 </div>
                                 <a href="#" class="top-sellers__link">View All</a>
                             </div>
                         </aside>
                         <div class="product-page__content">
                             <div class="product-page__filter">
-                                <div>
-                                    <button></button>
-                                    Sort by: New Items
-                                    <button></button>
+                                <div class="product-page__filter-box-1">
+                                    <button class="box-1__button-1" >
+                                        <svg class="sort-amount-desc</title>
+                                            <path" version="1.1" xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                            viewBox="0 0 28 28">
+                                            <title>sort-amount-desc</title>
+                                            <path
+                                                d="M19 24.5v3c0 0.281-0.219 0.5-0.5 0.5h-4c-0.281 0-0.5-0.219-0.5-0.5v-3c0-0.281 0.219-0.5 0.5-0.5h4c0.281 0 0.5 0.219 0.5 0.5zM11.5 22.5c0 0.141-0.063 0.266-0.156 0.375l-4.984 4.984c-0.109 0.094-0.234 0.141-0.359 0.141s-0.25-0.047-0.359-0.141l-5-5c-0.141-0.156-0.187-0.359-0.109-0.547s0.266-0.313 0.469-0.313h3v-21.5c0-0.281 0.219-0.5 0.5-0.5h3c0.281 0 0.5 0.219 0.5 0.5v21.5h3c0.281 0 0.5 0.219 0.5 0.5zM22 16.5v3c0 0.281-0.219 0.5-0.5 0.5h-7c-0.281 0-0.5-0.219-0.5-0.5v-3c0-0.281 0.219-0.5 0.5-0.5h7c0.281 0 0.5 0.219 0.5 0.5zM25 8.5v3c0 0.281-0.219 0.5-0.5 0.5h-10c-0.281 0-0.5-0.219-0.5-0.5v-3c0-0.281 0.219-0.5 0.5-0.5h10c0.281 0 0.5 0.219 0.5 0.5zM28 0.5v3c0 0.281-0.219 0.5-0.5 0.5h-13c-0.281 0-0.5-0.219-0.5-0.5v-3c0-0.281 0.219-0.5 0.5-0.5h13c0.281 0 0.5 0.219 0.5 0.5z">
+                                            </path>
+                                        </svg>
+                                    </button>
+                                    <div class="filter__text">
+                                        Sort by: New Items
+                                    </div>
+                                    
+                                    <button>
+                                        <svg class="sort" version="1.1" xmlns="http://www.w3.org/2000/svg" width="10" height="15" viewBox="0 0 16 28">
+                                        <title>sort</title>
+                                        <path d="M16 17c0 0.266-0.109 0.516-0.297 0.703l-7 7c-0.187 0.187-0.438 0.297-0.703 0.297s-0.516-0.109-0.703-0.297l-7-7c-0.187-0.187-0.297-0.438-0.297-0.703 0-0.547 0.453-1 1-1h14c0.547 0 1 0.453 1 1zM16 11c0 0.547-0.453 1-1 1h-14c-0.547 0-1-0.453-1-1 0-0.266 0.109-0.516 0.297-0.703l7-7c0.187-0.187 0.438-0.297 0.703-0.297s0.516 0.109 0.703 0.297l7 7c0.187 0.187 0.297 0.438 0.297 0.703z"></path>
+                                        </svg>
+                                        </button>
                                 </div>
-                                <div>
-                                    <button></button>
-                                    <button></button>
+                                <div class="product-page__filter-box-2">
+                                    <button class="active" >
+                                        <svg class="th-large active " version="1.1" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 26 28">
+                                        <title>th-large</title>
+                                        <path d="M12 16v6c0 1.094-0.906 2-2 2h-8c-1.094 0-2-0.906-2-2v-6c0-1.094 0.906-2 2-2h8c1.094 0 2 0.906 2 2zM12 4v6c0 1.094-0.906 2-2 2h-8c-1.094 0-2-0.906-2-2v-6c0-1.094 0.906-2 2-2h8c1.094 0 2 0.906 2 2zM26 16v6c0 1.094-0.906 2-2 2h-8c-1.094 0-2-0.906-2-2v-6c0-1.094 0.906-2 2-2h8c1.094 0 2 0.906 2 2zM26 4v6c0 1.094-0.906 2-2 2h-8c-1.094 0-2-0.906-2-2v-6c0-1.094 0.906-2 2-2h8c1.094 0 2 0.906 2 2z"></path>
+                                        </svg>
+                                    </button>
+                                    <button class="th-list">
+                                        <svg class="thlist" version="1.1" xmlns="http://www.w3.org/2000/svg" width="17" height="15" viewBox="0 0 28 28">
+                                        <title>th-list</title>
+                                        <path d="M8 19.5v3c0 0.828-0.672 1.5-1.5 1.5h-5c-0.828 0-1.5-0.672-1.5-1.5v-3c0-0.828 0.672-1.5 1.5-1.5h5c0.828 0 1.5 0.672 1.5 1.5zM8 11.5v3c0 0.828-0.672 1.5-1.5 1.5h-5c-0.828 0-1.5-0.672-1.5-1.5v-3c0-0.828 0.672-1.5 1.5-1.5h5c0.828 0 1.5 0.672 1.5 1.5zM28 19.5v3c0 0.828-0.672 1.5-1.5 1.5h-15c-0.828 0-1.5-0.672-1.5-1.5v-3c0-0.828 0.672-1.5 1.5-1.5h15c0.828 0 1.5 0.672 1.5 1.5zM8 3.5v3c0 0.828-0.672 1.5-1.5 1.5h-5c-0.828 0-1.5-0.672-1.5-1.5v-3c0-0.828 0.672-1.5 1.5-1.5h5c0.828 0 1.5 0.672 1.5 1.5zM28 11.5v3c0 0.828-0.672 1.5-1.5 1.5h-15c-0.828 0-1.5-0.672-1.5-1.5v-3c0-0.828 0.672-1.5 1.5-1.5h15c0.828 0 1.5 0.672 1.5 1.5zM28 3.5v3c0 0.828-0.672 1.5-1.5 1.5h-15c-0.828 0-1.5-0.672-1.5-1.5v-3c0-0.828 0.672-1.5 1.5-1.5h15c0.828 0 1.5 0.672 1.5 1.5z"></path>
+                                        </svg>
+                                    </button>
                                 </div>
                             </div>
                             <div class="product-page__items">
+                                <div class=">
+                                    <a href="#" class="products__item-img"
+                                        style="background-image: url(images/content-item/1.jpg);"></a>
+                                    <div class="products__item-content">
+                                        <div class="products__item-name-new-item">
+                                            <a href="#" class="products__item-title">
+                                                Responsive Mobile App
+                                            </a>
+                                            <a href="#" class="products__item-category">
+                                                Site Templates
+                                            </a>
+                                        </div>
+                                        <div class="products__item-price">
+                                            19$
+                                        </div>
+                                    </div>
+                                    <div class="products__item-info">
+                                        <a href="#" class="products__item-author">
+                                            <div class="avatar"
+                                                style="background-image: url(images/content-item/user.jpg);"></div>
+                                            <span>Radiustheme</span>
+                                        </a>
+                                        <div class="products__item-star">
+                                            <div class="rate-star"></div>(<span>05</span>)
+                                        </div>
+                                    </div>
+                                </div>
+
                                 <div class="products__item">
                                     <a href="#" class="products__item-img"
                                         style="background-image: url(images/content-item/1.jpg);"></a>
@@ -354,7 +429,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <div class="products__item">
                                     <a href="#" class="products__item-img"
                                         style="background-image: url(images/content-item/1.jpg);"></a>
@@ -382,35 +457,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                
-                                <div class="products__item">
-                                    <a href="#" class="products__item-img"
-                                        style="background-image: url(images/content-item/1.jpg);"></a>
-                                    <div class="products__item-content">
-                                        <div class="products__item-name-new-item">
-                                            <a href="#" class="products__item-title">
-                                                Responsive Mobile App
-                                            </a>
-                                            <a href="#" class="products__item-category">
-                                                Site Templates
-                                            </a>
-                                        </div>
-                                        <div class="products__item-price">
-                                            19$
-                                        </div>
-                                    </div>
-                                    <div class="products__item-info">
-                                        <a href="#" class="products__item-author">
-                                            <div class="avatar"
-                                                style="background-image: url(images/content-item/user.jpg);"></div>
-                                            <span>Radiustheme</span>
-                                        </a>
-                                        <div class="products__item-star">
-                                            <div class="rate-star"></div>(<span>05</span>)
-                                        </div>
-                                    </div>
-                                </div>
-                                
+
                             </div>
                             <div class="pagination">
                                 <ul class="pagination__list">

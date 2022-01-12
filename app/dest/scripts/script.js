@@ -27,16 +27,9 @@ function closeDialog() {
           starWidth: "12px"
         });
 
-        $(".js-range-slider").ionRangeSlider({
-          type: "double",
-          min: 0,
-          max: 1000,
-          from: 200,
-          to: 500,
-          grid: true
-      });
+        
 
-
+ 
       }); 
 
         $(".products-slider__inner").slick({
@@ -45,6 +38,10 @@ function closeDialog() {
             slidesToScroll: 4,
         });
 
+       
+     
+        // $('.th-list').on('click', function(){
+        //   $('.products__item').classList.add('list')
+        // });
         
         
-
