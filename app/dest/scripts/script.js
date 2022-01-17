@@ -8,13 +8,15 @@ function closeDialog() {
     dialog.close();
 }
 
-    var mixer = mixitup('.products__inner-box');
+    
 
 
     $(function () {
 
 
-        
+      
+
+
  
         $(".rate-star").rateYo({
           rating: 5,
@@ -27,7 +29,14 @@ function closeDialog() {
           starWidth: "12px"
         });
 
-        
+        $('.menu__btn').on('click', function(){
+          $('.menu__list').slideToggle();
+        });
+
+
+        $('.header__svg-btn').on('click', function() {
+          $('.header__box').toggleClass('active ');
+        });
 
  
       }); 
@@ -38,7 +47,11 @@ function closeDialog() {
             slidesToScroll: 4,
         });
 
-       
+
+
+
+
+        var mixer = mixitup('.products__inner-box');
      
         // $('.th-list').on('click', function(){
         //   $('.products__item').classList.add('list')
