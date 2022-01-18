@@ -38,6 +38,28 @@ function closeDialog() {
           $('.header__box').toggleClass('active ');
         });
 
+        $(".js-range-slider").ionRangeSlider({
+          type: "double",
+          min: 0,
+          max: 1000,
+          from: 0,
+          to: 600,
+          prefix: "$"
+      });
+
+
+        $('.th-list').on('click', function(){
+          $('.product__item').addClass('list');
+          $('.thlist').addClass('active');
+          $('.thlarge').removeClass('active')
+
+        });
+
+        $('.th-large').on('click', function(){
+          $('.product__item').removeClass('list');
+          $('.thlarge').addClass('active');
+          $('.thlist').removeClass('active')
+        });
  
       }); 
 
