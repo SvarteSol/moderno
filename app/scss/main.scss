@@ -1336,13 +1336,347 @@
 .products__item-list{
     display: none;
 }
-
-
 // end product page
 
 
 
 
+// product-one start
+.product-one{
+    padding-bottom: 100px;
+}
+
+.product-one__inner{
+    display: flex;
+    
+}
+
+.product-one__content{
+    margin-right: 31px;
+    max-width: 870px;
+    
+}
+
+.product-one__images-inner{
+    background-color: #fff;
+    border: 1px solid #dedede;
+    padding: 16px 19px;
+    // display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 870px;
+}
+
+.product-one__images{
+    max-width: 829px;
+    min-height: 422px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.product-one__title{
+    font-size: 30px;
+    color: $bg;
+    line-height: 40px;
+    @include f500;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+.product-one__text{
+    font-size: 16px;
+    color: #707070;
+    margin-bottom: 35px;
+    margin-top: 20px;
+
+}
+.product-one__box{
+    margin-bottom: 55px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center
+}
+
+.product-one__link{
+    a{
+    padding: 13px 8px;
+    width: 150px;
+    color: $grey;
+    font-size: 16px;
+    & + a{
+        margin-left: 20px;
+    } 
+    }
+    .link-live{
+        background-color: $red; 
+     }
+     .link-screenshots{
+         background-color: #455a64;
+     }
+     .link-documentation{
+         background-color: $green;
+     }
+       
+}
+
+.product-one__social{
+    display: flex;
+    a{
+        width: 54px;
+        height: 50px;
+        & + a{
+            margin-left: -6px;
+        }
+        
+    }
+
+    
+    .facebook-square{
+        fill: #6370b6;
+    }
+    .twitter-square{
+        fill: #64b5f6;
+    }
+    .linkedin-square{
+        fill: #4f71ce;
+    }
+    .pinterest-square{
+        fill: #d32f2f;
+    }
+}
+
+
+.product-one__more-title{
+    font-size: 18px;
+    @include f500;
+    color: $bg;
+    padding: 17px 25px;
+    background-color: #fff;
+    border: 1px solid #dedede;
+    margin-bottom: 28px;
+}
+
+.tabs{
+    display: flex;
+    text-align: center;
+    border: 1px solid #d7d7d7;
+    .tab{
+        width: 100%;
+        background-color: #fff;
+        font-size: 16px;
+        color: #70838d;
+        padding: 20px 0;
+        cursor: pointer;
+        & + .tab{
+            border-left: 1px solid #d7d7d7;
+        }
+    }
+}
+
+.tab_content{
+    background-color: #fff;
+    border: 1px solid #dedede;
+    border-top: none;
+    padding: 30px 50px;
+}
+
+.product-one__tabs{
+    margin-bottom: 55px;
+}
+.tab-item{
+    display: none;
+    &:first-child{
+        display: block;
+    }
+}
+
+.tab-items__list{
+    font-size: 16px;
+    line-height: 36px;
+    color: #707070;
+    column-count: 2;
+    column-gap: 25px;
+    li{
+        display: flex;
+        align-items: center;
+        max-width: 270px;
+        width: 100%;
+        svg{
+            fill: $green;
+            margin-right: 14px;
+        }
+    }
+}
+
+
+
+.product-one__more-icons{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.productmini{
+    margin-bottom: 27px;
+    display: flex;
+    height: 90px;
+    width: 270px;
+    background-color: #fff;
+    align-items: center;
+    box-shadow: 0px 1px 2px 0px rgba(205, 214, 222, 0.75);
+}
+.productmini__images{
+    width: 100px;
+    height: 90px;
+    margin-right: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.productmini__info{
+    .productmini__name{
+        @include f500;
+        font-size: 14px;
+        color: $bg;
+    }
+    .productmini__thema{
+        color: $green;
+        font-size: 12px;
+
+    }
+    .productmini__price{
+        font-size: 18px;
+        color: $bg;
+        @include f700;
+    }
+}
+
+.price__box{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.price__product{
+    font-size: 22px;
+    @include f500;
+    color: $red;    
+}
+
+.product-price{
+    button{
+        box-shadow: 0px 1px 2px 0px rgba(69, 90, 100, 0.75);
+        margin-bottom: 7px;
+        border: none;
+        background-color: $text;
+        font-size: 16px;
+        @include f700;
+        display: block;
+        text-align: center;
+        padding: 17px 5px 15px;
+        width: 100%;
+        color: #fff;
+        cursor: pointer;
+        svg{
+            fill: #fff;
+            margin-right: 8px;
+        }
+        
+    }
+    .heart-o{
+        background-color:#42a5f5;
+    }
+    .shopping-cart{
+        background-color: $green;
+    }
+}
+
+
+.Rectangle_72 {
+    background-color: rgb(139, 195, 74);
+    
+    position: absolute;
+    left: 1306px;
+    top: 633px;
+    width: 208px;
+    height: 48px;
+    z-index: 126;
+  }
+  
+
+.product-author__box{
+    padding: 25px 0;
+    display: flex;
+    // align-items: center;
+}
+.author__avatar{
+    margin-right: 14px;
+}
+.author__name{
+    font-size: 18px;
+    color: $bg;
+    margin-bottom: 2px;
+}
+.author__info-link{
+    font-size: 13px;
+    color: #707070;
+    padding: 6px 9px 5px;
+    border: 1px solid #d6d6d6;
+}
+
+.author__awards-list{
+    li{ 
+        width: 34px;
+        height: 37px;
+        display: inline-block;
+        text-align: center;
+        padding-top: 6px;
+        & + li{
+            margin-left: 4px;
+        }
+        svg{
+            fill: #fff;  
+        }
+    }
+}
+.aside__item-sales{
+    padding-top: 23px;
+    font-size: 16px;
+    @include f300;
+    display: flex;
+    align-items: center;
+    color: #707070;
+    span{
+        margin-right: 14px;
+        color: #263238;
+        font-size: 20px;
+        @include f700;
+    }
+    svg{
+        fill: #a6b5bb;
+        margin-right: 19px;
+    }
+}
+
+
+
+.information__line{
+    font-size: 14px;
+    color: #70838d;
+    margin-top: 20px;
+    line-height: 18px;
+    span{
+        color: $bg; 
+        @include f500;
+        margin-right: 4px;
+    }
+}
+
+// product-one end
 
 
 @import 'media';
