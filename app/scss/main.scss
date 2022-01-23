@@ -1989,6 +1989,114 @@
 }
 // contact end
 
+
+// personal settings start
+.settings{
+    padding-bottom: 100px;
+}
+.product-one__tabs.settings__tabs{
+    display: flex;
+    .tabs .tab+.tab {
+        border-left: none;
+    }
+    .tabs{
+        max-width: 270px;
+        margin-right: 30px;
+        border: 1px solid #dedede;
+        border-bottom: none;
+        width: 100%;
+        display: block;
+        text-align-last: left;
+        height:100%;
+        span{
+            display: flex;
+            background-color: #fff;
+            border-bottom: 1px solid #dedede;
+            padding: 17px 17px 17px 20px;
+            align-content: center;
+            align-items: center;
+            color: #707070;
+            font-size: 14px;
+            @include f500;
+            svg{
+                fill: #444444;
+                margin-right: 22px;
+            }
+            &.active{
+                border-bottom: 1px solid $green;
+                color: #37474f;
+                svg{
+                    fill: $green;
+                } 
+            }
+        }
+    }
+    .tab__content{
+        width: 100%;
+        background-color: transparent;
+        padding: 0;
+        border: none;
+    }
+    button{
+        width: 108px;
+        height: 46px;
+        background-color: $green;
+        color: #fff;
+        border: none;
+        margin-left: 258px;
+        font-size: 15px;
+        @include f500;
+    }
+}
+.page-box{
+    background-color: #fff;
+    border: 1px solid #dedede;
+    min-height: 1 ;
+}
+.page-box__title{
+    background-color: #fff;
+    border-bottom: 1px solid #dedede;
+    padding: 18px 34px;
+    color: #263238;
+    font-size: 24px;
+    @include f500;
+}
+.page-box__content{
+    padding: 30px 35px 80px;
+}
+.settings__line{
+    margin-bottom: 21px;
+    display: flex;
+    align-items: center;
+    label{
+        font-size: 15px;
+        color: #444444;
+        width: 260px;
+    }
+    input{
+        max-width: 540px;
+        width: 100%;
+        height: 40px;
+        color: black;
+        background-color: #f9f9f9;
+        border: 1px solid #dedede;
+        padding: 0px 10px;
+
+    }
+    select{
+        max-width: 540px;
+        width: 100%;
+        height: 40px;
+        color: black;
+        background-color: #f9f9f9;
+        border: 1px solid #dedede;
+        padding: 0px 10px;
+        color: #707070;
+    }
+
+}
+// personal settings end
+
 @import 'media';
 
 
