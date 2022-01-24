@@ -70,8 +70,8 @@ function closeDialog() {
             $('#'+id).addClass('active-tab').fadeIn();
             return false;
           });
- 
-      }); 
+
+          
 
         $(".products-slider__inner").slick({
             dots: true,
@@ -79,7 +79,12 @@ function closeDialog() {
             slidesToScroll: 4,
         });
 
+        $( 'input[type="file"], select' ).styler({
+                
+ 
+        }); 
 
+      });
 
 
 
